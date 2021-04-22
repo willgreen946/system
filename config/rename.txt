@@ -1,0 +1,1 @@
+To get any of the configs to work on your system rename the 'config' folder to '.config'
