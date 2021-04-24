@@ -82,7 +82,7 @@ static const char *firefox[] = {"firefox", NULL}; //firefox
 static const char *email[] = {"thunderbird", NULL}; //Open an email client
 static const char *vlc[] = {"vlc", NULL}; //Open vlc media player
 static const char *surf[] = {"surf", NULL}; //Open surf
-static const char *terminator[] = {"terminator", NULL}; //Open terminator
+static const char *nitrogen[] = {"nitrogen", NULL}; //Open nitrogen
 static const char *connmangtk[] = {"connman-gtk", NULL}; //Open connman-gtk
 
 static Key keys[] = {
@@ -128,7 +128,7 @@ static Key keys[] = {
 	{ MODKEY,			XK_e,	   spawn, 	   {.v = email } }, //Should open an email client
 	{ MODKEY,			XK_f,	   spawn,	   {.v = files } }, //Should open my file manager
 	{ MODKEY, 			XK_t,	   spawn,	   {.v = terminal } }, //Should open a terminal
-	{ MODKEY|ShiftMask, 		XK_t,	   spawn, 	   {.v = terminator } }, //To open terminator
+	{ MODKEY|ShiftMask, 		XK_n,	   spawn, 	   {.v = nitrogen } }, //To open nitrogen
 	{ MODKEY|ShiftMask, 		XK_space,  spawn,	   {.v = firefox } }, //Should open chromium
 	{ MODKEY|ShiftMask,		XK_c,	   spawn,  	   {.v = connmangtk } },
 	TAGKEYS(			XK_w,      		   7) //w stands for "web" so I want it to take me the the "web" page which is page 8
