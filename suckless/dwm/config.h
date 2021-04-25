@@ -12,8 +12,8 @@ static const unsigned int gappx     = 15;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "terminus:size=10" };
-static const char dmenufont[]       = "terminus:size=10";
+static const char *fonts[]          = { "ubuntu:size=10" };
+static const char dmenufont[]       = "ubuntu:size=10";
 static const char col_gray1[]       = "#000000";
 static const char col_gray2[]       = "#000000"; //this is the border around the window
 static const char col_gray3[]       = "#ffffff"; //the numbers on the bar 
