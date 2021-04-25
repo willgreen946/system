@@ -1,0 +1,14 @@
+pkg install:
+xorg
+vim
+neovim
+gmake
+gcc
+nitrogen
+lxappearance
+firefox
+doas
+pkgconf
+pcmanfm
+neofetch
+picom
