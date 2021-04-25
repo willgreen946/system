@@ -16,4 +16,6 @@ doas
 pkgconf
 pcmanfm
 neofetch
+wifimgr
+sysutils/powerdxx
 picom
