@@ -1,6 +1,6 @@
 This is a text file for software that I will install on Arch Linux and Arch Linux based
 Linux distros.
-
+Pacman -S:
 vim
 neovim
 nitrogen
