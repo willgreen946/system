@@ -1,10 +1,15 @@
 emerge:
-vim
-neovim
+doas
+app-editors/vim
+app-editors/neovim
 gcc
 git
 wget
 neofetch
+htop
+figlet
+cowsay
+media-gfx/scrot
 media-fonts/ubuntu-font-family
 media-video/mpv
 net-misc/youtube-dl
