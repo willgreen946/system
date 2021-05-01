@@ -1,0 +1,11 @@
+vim
+neovim
+gcc
+git
+wget
+neofetch
+net-libs/webkit-gtk
+x11-base/xorg-server
+x11-misc/nitrogen
+x11-misc/xwallpaper
+x11-misc/arandr
