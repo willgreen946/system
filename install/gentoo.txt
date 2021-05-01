@@ -1,11 +1,16 @@
+emerge:
 vim
 neovim
 gcc
 git
 wget
 neofetch
+media-fonts/ubuntu-font-family
+media-video/mpv
+net-misc/youtube-dl
 net-libs/webkit-gtk
 x11-base/xorg-server
 x11-misc/nitrogen
+x11-misc/picom
 x11-misc/xwallpaper
 x11-misc/arandr
