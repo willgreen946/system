@@ -1,17 +1,7 @@
-#!/bin/sh
-
-userresources=$HOME/.Xresources
-usermodmap=$HOME/.Xmodmap
-sysresources=/etc/X11/xinit/.Xresources
-sysmodmap=/etc/X11/xinit/.Xmodmap
-
-#compositer 
-picom -b &
-
-#satusbar
-slstatus &
-
-# Wallpaper 
-nitrogen --restore &
-
+exec picom -b &
+exec slstatus &
+exec xwallpaper --zoom Pictures/bigsur1.jpg &
+#exec feh --no-fehbg --bg-scale 'Pictures/bigsur0.jpg'
+#exec xsetbg Pictures/bigsur0.jpg
+#exec nitrogen --restore &
 exec dwm
