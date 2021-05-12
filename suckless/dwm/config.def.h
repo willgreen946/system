@@ -70,11 +70,15 @@ static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() 
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  =  { "st", NULL };
 static const char *browser[] =   { "firefox", NULL };
+static const char *wifigtk[] =   { "connman-gtk", NULL};
+
+//Terminal Applications
 static const char *ranger[] =    { "st", "-e", "ranger"};
 static const char *ncpamixer[] = { "st", "-e", "ncpamixer"};
 static const char *wifi[] =      { "st", "-e", "connman-ncurses" };
 static const char *htop[] =	 { "st", "-e", "htop" };
-static const char *wifigtk[] =   { "connman-gtk", NULL};
+static const char *vim[] =	 { "st", "-e", "vim"  };
+static const char *lynx[] =      { "st", "-e", "lynx"};
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -86,6 +90,9 @@ static Key keys[] = {
 	{ MODKEY|ControlMask,		XK_w,	   spawn,	   {.v = wifi 	  } },
 	{ MODKEY|ControlMask,		XK_c,	   spawn,	   {.v = wifigtk  } },
 	{ MODKEY|ControlMask,		XK_h,	   spawn,	   {.v = htop     } },
+	{ MODKEY|ControlMask,		XK_v,	   spawn,	   {.v = vim	  } },
+	{ MODKEY|ControlMask,		XK_l,	   spawn,	   {.v = lynx     } },
+	{ MODKEY|ControlMask,		XK_t,	   spawn,	   {.v = termcmd  } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
