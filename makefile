@@ -4,19 +4,19 @@ gentoo:
 debian:
 	apt-get install vim ranger nitrogen xorg pulseaudio ncpamixer git make
 	apt-get install mpv youtube-dl htop connman connman-ncurses connman-gtk
-	apt-get install nasm gcc
+	apt-get install nasm gcc setxkbmap
 
 arch:
 	pacman -S vim ranger nitrogen xorg pulseaudio ncpamixer git make
 	pacman -S mpv youtube-dl htop connman connman-ncurses connman-gtk
 	pacman -S base-devel
-	pacman -S nasm gcc
+	pacman -S nasm gcc setxkbmap
 
 void:
 	xbps-install vim ranger nitrogen xorg-minimal pulseaudio ncpamixer git make
 	xbps-install mpv youtube-dl htop connman connman-ncurses connman-gtk 
 	xbps-install libX11-devel libXinerama-devel freetype-devel terminus-font
-	xbps-install nasm gcc
+	xbps-install nasm gcc setxkbmap
 	ln -s /etc/connmand /var/service/
 	ln -s /etc/dbus /var/service/
 
