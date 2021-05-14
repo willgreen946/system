@@ -123,6 +123,7 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
+	"#03a062",
 	"#cccccc",
 	"#555555",
 };
@@ -205,6 +206,8 @@ static Shortcut shortcuts[] = {
 	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
 	{ TERMMOD,              XK_Prior,       zoom,           {.f = +1} },
 	{ TERMMOD,              XK_Next,        zoom,           {.f = -1} },
+	{ TERMMOD,		XK_j,		kscrolldown,	{.i =  1} },
+	{ TERMMOD,		XK_k,		kscrollup,	{.i =  1} },			
 	{ TERMMOD,              XK_Home,        zoomreset,      {.f =  0} },
 	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
 	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
