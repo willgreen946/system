@@ -1,0 +1,30 @@
+To install the 'system' stuff run the commands below
+If you run into errors when running 'make clean install' see reqs.txt to see the things you need to install to compile the suckless software
+
+mv fonts .fonts && mv .fonts /home/USER/
+
+mv .bashrc /home/USER/ && mv .xinitrc /home/USER/
+
+cd suckless/
+
+cd dwm/
+
+make clean install
+
+cd ..
+
+cd st/
+
+make clean install
+
+cd ..
+
+cd slstatus/
+
+make clean install
+
+cd ..
+
+cd dmenu/
+
+make clean install
