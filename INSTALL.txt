@@ -1,6 +1,8 @@
 To install the 'system' stuff run the commands below
 If you run into errors when running 'make clean install' see reqs.txt to see the things you need to install to compile the suckless software
 
+mv config .config && mv .config /home/USER/
+
 mv vim .vim && mv .vim /home/USER/
 
 mv fonts .fonts && mv .fonts /home/USER/
