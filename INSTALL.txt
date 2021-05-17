@@ -40,8 +40,11 @@ sudo xbps-install:
 	connman-ncurses
 	vim
 	vifm
+	pulseaudio
+	ncpamixer
+	lynx
 	gcc
 	xorg
 	pkgconf
 	base-devel
-			
+	vimb			
