@@ -1,3 +1,6 @@
+WWW_HOME='https://searx.ir'
+export WWW_HOME
+
 function nonzero_return() {
 		RETVAL=$?
 		[ $RETVAL -ne 0 ] && echo "$RETVAL"
