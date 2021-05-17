@@ -74,7 +74,7 @@ static const char *browser[] =   { "icecat", NULL };
 static const char *wifigtk[] =   { "connman-gtk", NULL};
 
 //Terminal Applications
-static const char *ranger[] =    { "st", "-e", "ranger"};
+static const char *vifm[] =    { "st", "-e", "vifm"};
 static const char *ncpamixer[] = { "st", "-e", "ncpamixer"};
 static const char *wifi[] =      { "st", "-e", "connman-ncurses" };
 static const char *htop[] =	 { "st", "-e", "htop" };
@@ -86,7 +86,7 @@ static Key keys[] = {
 	{ MODKEY|ControlMask,           XK_d,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ControlMask,           XK_Return, spawn,          {.v = termcmd  } },
 	{ MODKEY|ControlMask,		XK_space,  spawn,	   {.v = browser  } },
-	{ MODKEY|ControlMask,		XK_r,	   spawn,	   {.v = ranger   } },
+	{ MODKEY|ControlMask,		XK_f,	   spawn,	   {.v = vifm     } },
 	{ MODKEY|ControlMask,		XK_a,	   spawn,	   {.v = ncpamixer} },
 	{ MODKEY|ControlMask,		XK_w,	   spawn,	   {.v = wifi 	  } },
 	{ MODKEY|ControlMask,		XK_c,	   spawn,	   {.v = wifigtk  } },
