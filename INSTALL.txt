@@ -30,3 +30,18 @@ cd ..
 cd dmenu/
 
 make clean install
+
+============================
+|   Void Linux Programs    |
+============================
+
+sudo xbps-install:
+	connman
+	connman-ncurses
+	vim
+	vifm
+	gcc
+	xorg
+	pkgconf
+	base-devel
+			
