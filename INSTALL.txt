@@ -49,4 +49,5 @@ sudo xbps-install:
 	xorg
 	pkgconf
 	base-devel
-	vimb			
+	vimb
+	cointop
