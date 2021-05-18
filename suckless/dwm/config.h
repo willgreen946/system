@@ -80,6 +80,7 @@ static const char *wifi[] =      { "st", "-e", "connman-ncurses" };
 static const char *htop[] =	 { "st", "-e", "htop" };
 static const char *vim[] =	 { "st", "-e", "vim"  };
 static const char *lynx[] =      { "st", "-e", "lynx"};
+static const char *crypto[] =    { "st", "-e", "cointop"};
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -88,8 +89,9 @@ static Key keys[] = {
 	{ MODKEY|ControlMask,		XK_space,  spawn,	   {.v = browser  } },
 	{ MODKEY|ControlMask,		XK_f,	   spawn,	   {.v = vifm     } },
 	{ MODKEY|ControlMask,		XK_a,	   spawn,	   {.v = ncpamixer} },
+	{ MODKEY|ControlMask,		XK_c,	   spawn,	   {.v = crypto   } },
 	{ MODKEY|ControlMask,		XK_w,	   spawn,	   {.v = wifi 	  } },
-	{ MODKEY|ControlMask,		XK_c,	   spawn,	   {.v = wifigtk  } },
+	{ MODKEY|ControlMask,		XK_g,	   spawn,	   {.v = wifigtk  } },
 	{ MODKEY|ControlMask,		XK_h,	   spawn,	   {.v = htop     } },
 	{ MODKEY|ControlMask,		XK_v,	   spawn,	   {.v = vim	  } },
 	{ MODKEY|ControlMask,		XK_l,	   spawn,	   {.v = lynx     } },
