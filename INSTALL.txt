@@ -51,3 +51,10 @@ sudo xbps-install:
 	base-devel
 	vimb
 	cointop
+	acpi
+	tmux
+	make
+	libX11-devel
+	libXinerama-devel
+	libXft-devel
+	pkgconfig
