@@ -10,7 +10,7 @@ void:
 	# Internet
 	xbps-install icecat lynx connman connman-ncurses
 	# System tools
-	xbps-install vifm vim acpi
+	xbps-install vifm vim acpi htop
 	# Misc
 	xbps-install cointop
 
@@ -24,6 +24,6 @@ freebsd:
 	# Internet
 	pkg install icecat lynx
 	# System tools
-	pkg install vifm vim acpi
+	pkg install vifm vim acpi htop
 	# Misc
 	pkg install cointop 
