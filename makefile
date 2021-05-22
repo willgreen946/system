@@ -2,7 +2,7 @@
 
 void:
 	# Development
-	xbps-install gcc libX11-devel libXinerama-devel libXft-devel pkgconf pkgconfig base-devel
+	xbps-install gcc libX11-devel libXinerama-devel libXft-devel pkgconf pkg-config base-devel
 	# Window managers and ui in general
 	xbps-install tmux xorg-minimal
 	# Audio
