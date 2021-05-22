@@ -1,3 +1,7 @@
+
+alias wifi="connman-ncurses"
+alias bat="acpi -i -b"
+
 WWW_HOME='https://searx.ir'
 export WWW_HOME
 
