@@ -185,4 +185,4 @@ bar {
 # class		border  background text    indicator child_border
 client.focused	#00cd00 #00cd00    #ffffff #00cd00   #00cd00
 client.focused_inactive #03a062    #000000 #ffffff   #03a062 #03a062
-client.unfocused #282828 #282828 #03a062 #282828 #282828
+client.unfocused #03a062 #000000 #ffffff #03a062 #03a062
