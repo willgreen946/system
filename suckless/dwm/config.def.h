@@ -73,6 +73,7 @@ static const char *termcmd[]  =  { "st", NULL };
 static const char *browser[] =   { "icecat", NULL };
 static const char *vimb[] =	 { "vimb", NULL};
 static const char *wifigtk[] =   { "connman-gtk", NULL};
+static const char *qute[] =      { "qutebrowser", NULL};
 
 //Terminal Applications
 static const char *vifm[] =    { "st", "-e", "vifm"};
@@ -97,6 +98,7 @@ static Key keys[] = {
 	{ MODKEY|ControlMask,		XK_v,	   spawn,	   {.v = vim	  } },
 	{ MODKEY|ControlMask,		XK_b,	   spawn,	   {.v = vimb	  } },
 	{ MODKEY|ControlMask,		XK_l,	   spawn,	   {.v = lynx     } },
+	{ MODKEY|ControlMask,		XK_q,	   spawn,	   {.v = qute	  } },
 	{ MODKEY|ControlMask,		XK_t,	   spawn,	   {.v = termcmd  } },
 	{ MODKEY,			XK_Return, spawn,	   {.v = termcmd  } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
