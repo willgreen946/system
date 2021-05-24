@@ -100,7 +100,6 @@ static Key keys[] = {
 	{ MODKEY|ControlMask,		XK_l,	   spawn,	   {.v = lynx     } },
 	{ MODKEY|ControlMask,		XK_q,	   spawn,	   {.v = qute	  } },
 	{ MODKEY|ControlMask,		XK_t,	   spawn,	   {.v = termcmd  } },
-	{ MODKEY,			XK_Return, spawn,	   {.v = termcmd  } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_l,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_h,      focusstack,     {.i = -1 } },
