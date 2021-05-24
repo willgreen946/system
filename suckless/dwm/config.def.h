@@ -71,6 +71,7 @@ static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() 
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  =  { "st", NULL };
 static const char *browser[] =   { "icecat", NULL };
+static const char *vimb[] =	 { "vimb", NULL};
 static const char *wifigtk[] =   { "connman-gtk", NULL};
 
 //Terminal Applications
@@ -94,6 +95,7 @@ static Key keys[] = {
 	{ MODKEY|ControlMask,		XK_g,	   spawn,	   {.v = wifigtk  } },
 	{ MODKEY|ControlMask,		XK_h,	   spawn,	   {.v = htop     } },
 	{ MODKEY|ControlMask,		XK_v,	   spawn,	   {.v = vim	  } },
+	{ MODKEY|ControlMask,		XK_b,	   spawn,	   {.v = vimb	  } },
 	{ MODKEY|ControlMask,		XK_l,	   spawn,	   {.v = lynx     } },
 	{ MODKEY|ControlMask,		XK_t,	   spawn,	   {.v = termcmd  } },
 	{ MODKEY,			XK_Return, spawn,	   {.v = termcmd  } },
