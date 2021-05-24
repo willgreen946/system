@@ -8,7 +8,7 @@ void:
 	# Audio
 	xbps-install pulseaudio ncpamixer
 	# Internet
-	xbps-install icecat lynx vimb connman connman-ncurses
+	xbps-install icecat lynx vimb connman connman-ncurses qutebrowser
 	# System tools
 	xbps-install vifm vim acpi htop
 	# Misc
@@ -22,7 +22,7 @@ freebsd:
 	# Audio
 	pkg install alsa-utils
 	# Internet
-	pkg install icecat vimb lynx
+	pkg install icecat vimb lynx qutebrowser
 	# System tools
 	pkg install vifm vim acpi htop
 	# Misc
