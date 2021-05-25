@@ -12,7 +12,7 @@ void:
 	# System tools
 	xbps-install vifm vim acpi htop
 	# Misc
-	xbps-install cointop
+	xbps-install cointop libreoffice
 
 freebsd:
 	# Development
@@ -26,4 +26,4 @@ freebsd:
 	# System tools
 	pkg install vifm vim acpi htop
 	# Misc
-	pkg install cointop 
+	pkg install cointop libreoffice
