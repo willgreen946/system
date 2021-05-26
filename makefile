@@ -8,11 +8,11 @@ void:
 	# Audio
 	xbps-install pulseaudio ncpamixer
 	# Internet
-	xbps-install icecat lynx vimb connman connman-ncurses qutebrowser
+	xbps-install icecat lynx vimb connman connman-ncurses qutebrowser tor torbrowser-launcher
 	# System tools
 	xbps-install vifm vim acpi htop
 	# Misc
-	xbps-install cointop libreoffice
+	xbps-install cointop libreoffice qbittorrent onionshare
 
 freebsd:
 	# Development
