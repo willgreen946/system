@@ -8,7 +8,7 @@ void:
 	# Audio
 	xbps-install pulseaudio ncpamixer
 	# Internet
-	xbps-install icecat lynx vimb connman connman-ncurses qutebrowser tor torbrowser-launcher
+	xbps-install icecat lynx vimb connman connman-ncurses qutebrowser tor torbrowser-launcher elinks
 	# System tools
 	xbps-install vifm vim acpi htop
 	# Misc
