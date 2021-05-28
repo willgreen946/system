@@ -17,8 +17,8 @@ bindsym ctrl+k resize grow height 10 px or 10 ppt
 bindsym ctrl+l resize grow width 10 px or 10 ppt
 
 # My tmux bindings for window managment
-bindsym ctrl+space+v split v
-bindsym ctrl+space+h split h
+bindsym ctrl+$mod+v split v
+bindsym ctrl+$mod+h split h
 
 # 8 workspaces
 bindsym $mod+1 workspace 1
