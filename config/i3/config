@@ -55,7 +55,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Exit i3' -b 'exit' 'i3-msg e
 
 # Class				border	background	text	indicator	child_border
 client.focused			#00cd00	#00cd00		#ffffff	#00cd00		#00cd00
-client.focused_inactive 	#00cd00 #00cd00		#ffffff #00cd00 	#00cd00
+client.focused_inactive 	#00cd00 #000000		#ffffff #00cd00 	#00cd00
 client.unfocused 		#03a062 #000000 	#ffffff #03a062 	#03a062
 client.urgent 			#ff0000 #000000 	#ffffff #ff0000 	#000000
 client.placeholder 		#000000 #000000 	#ffffff #000000 	#000000
