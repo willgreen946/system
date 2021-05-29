@@ -1,5 +1,5 @@
 # Alt as mod key
-set $mod Mod1
+set $mod Control 
 
 # Terminal spawn
 bindsym $mod+Return exec st
@@ -11,14 +11,14 @@ bindsym $mod+k focus up
 bindsym $mod+l focus right
 
 # Vim bindings to resize windows
-bindsym ctrl+h resize shrink width 10 px or 10 ppt
-bindsym ctrl+j resize shrink height 10 px or 10 ppt
-bindsym ctrl+k resize grow height 10 px or 10 ppt
-bindsym ctrl+l resize grow width 10 px or 10 ppt
+bindsym Mod1+h resize shrink width 10 px or 10 ppt
+bindsym Mod1+j resize shrink height 10 px or 10 ppt
+bindsym Mod1+k resize grow height 10 px or 10 ppt
+bindsym Mod1+l resize grow width 10 px or 10 ppt
 
 # My tmux bindings for window managment
-bindsym ctrl+$mod+v split v
-bindsym ctrl+$mod+h split h
+bindsym ctrl+alt+v split v
+bindsym ctrl+alt+h split h
 
 # 8 workspaces
 bindsym $mod+1 workspace 1
@@ -41,8 +41,8 @@ bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
 
 # Program bindings
-bindsym ctrl+$mod+d exec dmenu
-bindsym ctrl+$mod+space exec icecat
+bindsym $mod+d exec dmenu
+bindsym $mod+space exec icecat
 
 # Kill window
 bindsym $mod+Shift+c kill
