@@ -4,7 +4,13 @@ set number
 
 " Highlight current line
 set cursorline
-hi CursorLine cterm=NONE ctermbg=242
+set cursorcolumn
+hi CursorColumn cterm=none ctermbg=green
+hi CursorLine cterm=NONE ctermbg=green
+
+" For working in a gui
+"hi CursorLine cterm=NONE ctermbg=243
+"hi CursorColumn cterm=NONE ctermbg=243
 
 " Vim-airline configuration
 let g:airline_theme='base16_macintosh'
