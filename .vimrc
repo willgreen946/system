@@ -6,18 +6,20 @@ set number
 hi CursorLine cterm=NONE ctermbg=green
 hi CursorColumn cterm=NONE ctermbg=green
 
-" Vim-airline configuration
-let g:airline_theme='base16_macintosh'
+" Lightline
+set laststatus=2
 
-" Nerdtree configuration
-hi Directory ctermfg=green
+let g:lightline = {
+	\ 'colorscheme' : '16color',
+	\ }
 
 " Mapping various keys
 " Ctrl+e to get to end of the line
 map <C-e> $i<right>
 
-" Ctrl+f to open nerdtree
-map <C-f> :NERDTreeToggle <CR>
+" Ctrl+f to open vifm 
+map <C-f> :Vifm <CR>
+map <C-v> :Vsplit Vifm <CR>
 
 " Ctrl-a to make green line
 " Ctrl-z to make green vertical line
