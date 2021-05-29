@@ -16,7 +16,7 @@ hi Directory ctermfg=green
 map <C-e> $i<right>
 
 " Ctrl+f to open nerdtree
-map <C-f> :NERDTreeToggle<CR>
+map <C-f> :NERDTreeToggle <CR>
 
 " Ctrl-g to make green line
 map <C-g> :set cursorline! <CR>
