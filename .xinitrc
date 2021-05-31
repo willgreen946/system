@@ -7,11 +7,17 @@ exec slstatus &
 # Wallpaper
 # nitrogen --restore &
 
+# Install rxvt-unicode xsel and xrdb
+xrdb -load ~/.Xresources &
+urxvt &
+
 # Startup Programs
-exec st &
-exec st -e vifm &
+#exec st -e zsh &
+#exec st -e vifm &
+
+#exec xdotool key alt+f &
 
 # Window Managers
 # Uncomment The One You Want 
-#exec i3
-exec dwm
+exec i3
+#exec dwm
