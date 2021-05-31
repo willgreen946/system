@@ -1,0 +1,39 @@
+!! Colorscheme
+! Fg and Bg
+*.foreground: #ffffff
+*.background: #000000
+*.cursorColor: #00cd00
+
+! Black
+*.color0: #000000
+*.color8: #000000
+
+! Red
+*.color1: #cd0000
+*.color9: #ff0000
+
+! Green
+*.color2: #00cd00
+*.color10: #00ff00
+
+! Yellow
+*.color3: #cdcd00
+*.color11: #ffff00
+
+! Blue
+*.color4: #0000cd
+*.color12: #0000ff
+
+! Magenta
+*.color5: #cd00cd
+*.color13: #ff00ff
+
+! Cyan
+*.color6: cyan3
+*.color14: cyan
+
+! white
+*.color7: #cdcdcd
+*.color15: #ffffff
+
+URxvt*font: xft:Perfect DOS VGA 437:size=12
