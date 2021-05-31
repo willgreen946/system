@@ -11,7 +11,7 @@ xbps-install -Sy setxkbmap xrdb xdotool nitrogen rxvt-unicode xsel scrot feh con
 xbps-install -Sy firefox icecat vimb elinks lynx tor torbrowser-launcher
 
 # Internet
-xbps-install -Sy connman connman-ncurses
+xbps-install -Sy connman connman-ncurses onionshare torsocks
 
 # System tools
 xbps-install -Sy sudo tmux vifm vim git make zsh bash tty-clock acpi
