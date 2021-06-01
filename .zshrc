@@ -1,3 +1,7 @@
+export XDG_RUNTIME_DIR="/tmp/swaywm"
+mkdir -p $XDG_RUNTIME_DIR
+chmod 0700 $XDG_RUNTIME_DIR
+
 export WWW_HOME
 WWW_HOME='https://searx.ir'
 
@@ -5,6 +9,7 @@ set TERMINAL='st'
 set EDITOR='vim'
 set BROWSER='elinks'
 
+alias x='startx'
 alias wifi='connman-ncurses'
 alias bat='acpi -i -b'
 alias files='vifm'
