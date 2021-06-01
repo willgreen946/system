@@ -17,6 +17,9 @@ set $term urxvt
 bindsym $mod+Return exec $term
 bindsym $mod+Space exec icecat
 bindsym $mod+d exec dmenu_run
+bindsym $mod+f exec urxvt -e vifm
+bindsym $mod+v exec urxvt -e vim 
+bindsym $mod+s exec urxvt -e htop
 
 # Move around windows
 bindsym $mod+h focus left
