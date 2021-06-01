@@ -7,6 +7,9 @@ exec swaybg -i /home/will/Pictures/gnu0.jpeg
 set $mod Mod4
 set $alt Mod1
 
+# Tmux like bindings
+set $tmux ctrl+b
+
 # Terminal emulator
 set $term urxvt
 
@@ -20,6 +23,10 @@ bindsym $mod+h focus left
 bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
+
+# Spawning windows
+bindsym $tmux+v splitv
+bindsym $tmux+h splith
 
 # Resize windows
 bindsym $mod+Shift+h resize grow width 10px
@@ -46,5 +53,13 @@ bindsym $mod+Shift+6 move container to workspace 6
 bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
 
+# Reload sway
+bindsym $mod+Shift+r reload
+
 # Kill Window
 bindsym $mod+q kill
+
+# Colors                border  background text    indicator child_border
+client.focused          #00cd00 #000000    #ffffff #00cd00   #00cd00
+client.unfocused        #03a062 #000000    #ffffff #03a062   #03a062
+client.focused_inactive #03a062 #000000    #282828 #03a062   #03a062
