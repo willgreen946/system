@@ -11,7 +11,7 @@ xbps-install -Sy setxkbmap xrdb xdotool nitrogen rxvt-unicode xsel scrot feh con
 xbps-install -Sy firefox icecat elinks lynx tor torbrowser-launcher
 
 # Internet
-xbps-install -Sy mutt connman connman-ncurses onionshare torsocks dbus
+xbps-install -Sy mutt connman connman-ncurses onionshare torsocks dbus wicd
 
 # Audio
 xbps-install -Sy pulseaudio ncpamixer
