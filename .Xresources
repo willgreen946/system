@@ -36,4 +36,5 @@
 *.color7: #cdcdcd
 *.color15: #ffffff
 
+URxvt.scrollBar: false
 URxvt*font: xft:Perfect DOS VGA 437:size=12
