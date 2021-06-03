@@ -1,5 +1,5 @@
 # Development
-xbps-install -Sy gcc base-devel pkgconfig pkgconf libX11-devel libXft-devel libXinermama-devel ncurses-devel
+xbps-install -Sy gcc base-devel pkgconfig pkgconf libX11-devel libXft-devel libXinermama-devel ncurses-devel libinput-devel wlroots-devel
 
 # X11/Wayland window managers
 xbps-install -Sy xorg-minimal i3 sway elogind
