@@ -8,7 +8,7 @@ xbps-install -Sy xorg-minimal i3 sway elogind
 xbps-install -Sy setxkbmap xrdb xdotool nitrogen rxvt-unicode xsel scrot feh connman-gtk xrandr arandr 
 
 # Fonts
-xbps-install -Sy terminus-font 
+xbps-install -Sy terminus-font tff-ubuntu-font-family
 
 # Virtual machine
 xbps-install -Sy qemu kvm virt-manager 
