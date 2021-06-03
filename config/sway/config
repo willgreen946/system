@@ -23,6 +23,9 @@ bindsym $mod+d exec dmenu_run
 bindsym $mod+f exec urxvt -e vifm
 bindsym $mod+v exec urxvt -e vim 
 bindsym $mod+s exec urxvt -e htop
+bindsym $mod+t exec urxvt -e tmux
+bindsym $mod+Shift+s exec st
+
 
 # Move around windows
 bindsym $mod+h focus left
