@@ -3,8 +3,10 @@ syntax on
 set number
 
 " Highlighting line
-hi CursorLine cterm=NONE ctermbg=green
-hi CursorColumn cterm=NONE ctermbg=green
+" hi CursorLine cterm=NONE ctermbg=green
+" hi CursorColumn cterm=NONE ctermbg=green
+hi CursorLine cterm=NONE ctermbg=240
+hi CursorColumn cterm=NONE ctermbg=240
 hi Directory ctermfg=green
 
 
@@ -17,7 +19,7 @@ let g:lightline = {
 
 " Mapping various keys
 " Ctrl+e to get to end of the line
-map <C-e> $i<right>
+map <C-e> $i<right> 
 
 " Ctrl+f to open vifm 
 map <C-f> :Vifm <CR>
