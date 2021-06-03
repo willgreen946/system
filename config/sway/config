@@ -3,6 +3,9 @@ exec setxkbmap gb
 exec xrdb -load ~/.Xresources
 exec swaybg -i /home/will/Pictures/gnu0.jpeg
 
+# Fonts
+font pango:terminus 12
+
 # MOD as super key (Windows key)
 set $mod Mod4
 set $alt Mod1
