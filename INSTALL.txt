@@ -1,3 +1,5 @@
 To install run 'sudo make' or 'make' as root
 Then run 'chmod +x build.sh' then './build.sh' or 'bash build.sh'
 Finally run 'chmod +x build_suckless.sh' then './build_suckless.sh' or 'bash build_suckless.sh'
+
+Or just 'sudo make && bash build.sh && bash build_suckless.sh'
