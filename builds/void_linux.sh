@@ -2,7 +2,7 @@
 xbps-install -Sy gcc base-devel pkgconfig pkgconf libX11-devel libXft-devel libXinermama-devel ncurses-devel libinput-devel wlroots-devel
 
 # X11/Wayland window managers
-xbps-install -Sy xorg-minimal i3 sway elogind
+xbps-install -Sy xorg-minimal i3 sway elogind i3status
 
 # X11 Programs
 xbps-install -Sy setxkbmap xrdb xdotool nitrogen rxvt-unicode xsel scrot feh connman-gtk xrandr arandr 
