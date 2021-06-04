@@ -1,40 +1,40 @@
 # Home directory
-$HOM = /home/will/
+$HOME = /home/will/
 
 
 # .config installation
 mv config .config
-mv .config $HOM
+mv .config $HOME
 
 # .fonts installation
 mv fonts .fonts
-mv .fonts $HOM
+mv .fonts $HOME
 
 # vim configuration installation
 mv vim .vim
-mv .vim $HOM
-mv .vimrc $HOM
+mv .vim $HOME
+mv .vimrc $HOME
 
 # zsh and bash configuration
-mv .zshrc $HOM
-mv .bashrc $HOM
+mv .zshrc $HOME
+mv .bashrc $HOME
 
 # X11 configuration installation
-mv .Xresources $HOM
-mv .xinitrc $HOM
-mv XTerm $HOM
+mv .Xresources $HOME
+mv .xinitrc $HOME
+mv XTerm $HOME
 
 # i3status configuration installation
-mv .i3status.conf $HOM
+mv .i3status.conf $HOME
 
 # tmux configuration installation
-mv .tmux.conf $HOM
+mv .tmux.conf $HOME
 
 # Making my direcorys for home
-mkdir -p $HOM Programs
-mkdir -p $HOM Music
-mkdir -p $HOM Videos
-mkdir -p $HOM Documents
-mkdir -p $HOM Downloads
-mkdir -p $HOM Git
-mkdir -p $HOM Iso
+mkdir -p $HOME Programs
+mkdir -p $HOME Music
+mkdir -p $HOME Videos
+mkdir -p $HOME Documents
+mkdir -p $HOME Downloads
+mkdir -p $HOME Git
+mkdir -p $HOME Iso
