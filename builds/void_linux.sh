@@ -29,7 +29,7 @@ xbps-install -Sy sudo tmux git wget make zsh bash tty-clock acpi
 xbps-install -Sy vim vifm vimpc vimiv vimb hexer cointop 
 
 # Misc
-xbps-install -Sy neofetch dialog 
+xbps-install -Sy neofetch dialog tig
 
 # Enable things at boot
 ln -s /etc/sv/dbus /var/service
