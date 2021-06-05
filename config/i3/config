@@ -1,7 +1,6 @@
 # Startup stuff
 exec setxkbmap gb 
 exec xrdb -load ~/.Xresources
-exec swaybg -i /home/will/Pictures/gnu0.jpeg
 
 # Fonts
 font pango:terminus 12
@@ -24,7 +23,8 @@ bindsym $mod+f exec urxvt -e vifm
 bindsym $mod+v exec urxvt -e vim 
 bindsym $mod+s exec urxvt -e htop
 bindsym $mod+t exec urxvt -e tmux
-bindsym $mod+Shift+s exec st
+bindsym $mod+a exec urxvt -e ncpamixer
+bindsym $mod+Shift+Return exec st
 
 
 # Move around windows
@@ -67,6 +67,22 @@ bindsym $mod+Shift+r reload
 
 # Kill Window
 bindsym $mod+q kill
+
+# Bar
+bar {
+	i3bar_command /bin/i3bar
+	status_command i3status
+	colors {
+		background #000000
+		statusline #00cd00
+
+		focused_workspace  #00cd00 #000000 #ffffff
+		active_workspace   #00cd00 #000000 #ffffff
+		inactive_workspace #03a062 #000000 #ffffff
+		urgent_workspace   #00ff00 #00ff00 #000000
+		binding_mode       #00ff00 #00ff00 #000000
+	}
+}
 
 # Colors                border  background text    indicator child_border
 client.focused          #00cd00 #000000    #ffffff #00cd00   #00cd00
