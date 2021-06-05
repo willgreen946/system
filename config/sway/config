@@ -1,7 +1,12 @@
 # Startup stuff
 exec setxkbmap gb 
 exec xrdb -load ~/.Xresources
-exec swaybg -i /home/will/Pictures/gnu0.jpeg
+exec swaybg -i /home/will/Pictures/wallpaper.jpg
+
+# Transparency
+set $opacity 0.4
+for_window [class="alacritty"] opacity $opacity
+for_window [app_id="alacritty"] opacity $opacity
 
 # Fonts
 font pango:terminus 12
