@@ -38,3 +38,5 @@
 
 URxvt.scrollBar: false
 URxvt*font: xft:Perfect DOS VGA 437:size=12
+URxvt*depth: 32
+URxvt*background: rgba:0000/0000/0200/c800
