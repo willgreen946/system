@@ -18,7 +18,8 @@ set $term urxvt
 
 # Program launching
 bindsym $mod+Return exec $term
-bindsym $mod+Space exec icecat-wayland
+bindsym $mod+i exec icecat-wayland
+bindsym $mod+Space exec vimb 
 bindsym $mod+d exec dmenu_run
 bindsym $mod+f exec urxvt -e vifm
 bindsym $mod+v exec urxvt -e vim 
