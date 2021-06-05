@@ -34,6 +34,7 @@ xbps-install -Sy neofetch dialog
 # Enable things at boot
 ln -s /etc/sv/dbus /var/service
 ln -s /etc/sv/connmand /var/service
+ln -s /etc/sv/libvirtd /var/service
 
 # Vi/Vim like htop
 git clone https://github.com/KoffeinFlummi/htop-vim.git
