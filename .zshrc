@@ -16,5 +16,7 @@ alias wifi='connman-ncurses'
 alias bat='acpi -i -b'
 alias files='vifm'
 alias net='elinks' 
+alias vim='nvim'
+
 
 PS1='%F{#00cd00}[%f%F{#00cd00}%n%f%F{#00cd00}@%f%F{#00cd00}%m%f %F{#00cd00}%/%f%F{#00cd00}]%f%F{#00cd00}$%f '
