@@ -6,7 +6,7 @@ export WWW_HOME
 WWW_HOME='https://searx.ir'
 
 set TERMINAL='st'
-set EDITOR='vim'
+set EDITOR='nvim'
 set BROWSER='elinks'
 
 alias willsys='git clone https://github.com/willrollitt/system'
