@@ -11,6 +11,18 @@ map <leader>v :Vifm <CR>
 hi CursorLine cterm=NONE ctermbg=240
 hi CursorColumn cterm=NONE ctermbg=240
 
+" Status line
+hi StatusLine ctermbg=0 ctermfg=2
+set statusline=%f
+set statusline+=%y
+set statusline+=%m
+set statusline+=%r
+set statusline+=\ %=
+set statusline+=Line:%l/%L[%p%%]
+set statusline+=\ Col:%c
+set statusline+=\ Buf:%n
+set statusline+=\ ASCII:[%b][0x%B]
+
 " Set cursor line
 map <leader>c :set cursorline! <CR>
 
