@@ -1,16 +1,30 @@
-" So I can see the line number
+let mapleader = " " "leader is space
 set number
 set cursorline!
 colorscheme wgt
+
+" Plugins
+map <leader>f :NERDTreeToggle <CR>
+map <leader>v :Vifm <CR>
 
 " Line highlighting
 hi CursorLine cterm=NONE ctermbg=240
 hi CursorColumn cterm=NONE ctermbg=240
 
-map <C-a> :set cursorline! <CR>
+" Set cursor line
+map <leader>c :set cursorline! <CR>
 
 " Get to the end of the line
-map <C-e> A
+map <leader>e A
+
+" Quick save
+map <leader>w :w <CR>
+
+" Quick quit
+map <leader>q :wq <CR>
+
+" Quick save and quit
+map <leader>r :q! <CR>
 
 " Disable arrow keys
 cnoremap <Down> <Nop>
