@@ -1,9 +1,15 @@
 " So I can see the line number
 set number
 set cursorline!
+colorscheme wgt
 
+" Line highlighting
 hi CursorLine cterm=NONE ctermbg=240
+hi CursorColumn cterm=NONE ctermbg=240
 
+map <C-a> :set cursorline! <CR>
+
+" Get to the end of the line
 map <C-e> A
 
 " Disable arrow keys
