@@ -26,7 +26,7 @@ xbps-install -Sy pulseaudio ncpamixer
 xbps-install -Sy sudo tmux git wget make zsh bash tty-clock acpi
 
 # Vi/Vim like programs
-xbps-install -Sy vim vifm vimpc vimiv vimb hexer cointop 
+xbps-install -Sy vim vifm vimpc vimiv vimb hexer cointop neovim
 
 # Misc
 xbps-install -Sy neofetch dialog tig
