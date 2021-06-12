@@ -1,4 +1,5 @@
 let mapleader = " " "leader is space
+let NERDTreeShowHidden=1
 set number
 set cursorline!
 colorscheme wgt
@@ -37,6 +38,14 @@ map <leader>q :wq <CR>
 
 " Quick save and quit
 map <leader>r :q! <CR>
+
+" Split panes
+map <leader>v <C-w>v <CR>
+map <leader>h <C-w>h <CR>
+
+" Move between panes
+map <leader>h <C-w>h <CR>
+map <leader>l <C-w>l <CR>
 
 " Disable arrow keys
 cnoremap <Down> <Nop>
