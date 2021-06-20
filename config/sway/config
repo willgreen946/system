@@ -26,6 +26,7 @@ bindsym $mod+s exec urxvt -e htop
 bindsym $mod+t exec urxvt -e tmux
 bindsym $mod+a exec urxvt -e ncpamixer
 bindsym $mod+Shift+Return exec st
+bindsym $mod+b exec torbrowser-launcher
 
 
 # Move around windows
