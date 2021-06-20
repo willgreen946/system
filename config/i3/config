@@ -27,6 +27,8 @@ bindsym $mod+t exec urxvt -e tmux
 bindsym $mod+a exec urxvt -e ncpamixer
 bindsym $mod+Shift+Return exec st
 bindsym $mod+b exec torbrowser-launcher
+bindsym $mod+w exec wowlet
+bindsym $mod+m exec monero-wallet-gui
 
 # Move around windows
 bindsym $mod+h focus left
