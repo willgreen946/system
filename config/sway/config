@@ -29,6 +29,7 @@ bindsym $mod+Shift+Return exec st
 bindsym $mod+b exec torbrowser-launcher
 bindsym $mod+w exec wowlet
 bindsym $mod+m exec monero-wallet-gui
+bindsym $mod+g exec ltris
 
 # Move around windows
 bindsym $mod+h focus left
