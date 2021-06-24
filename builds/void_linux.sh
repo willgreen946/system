@@ -50,6 +50,13 @@ mv local .local
 cp -r .local $HOME/
 mv vim .vim
 cp -r .vim $HOME/
+cp .zshrc $HOME/ && cp .bashrc $HOME/
+cp .tmux.conf $HOME/
+cp .vimrc $HOME/
+cp .Xresources $HOME/
+cp .xinitrc $HOME/
+cp .i3status.conf $HOME/
+cp XTerm $HOME/
 
 # Vi/Vim like htop
 git clone https://github.com/KoffeinFlummi/htop-vim.git
