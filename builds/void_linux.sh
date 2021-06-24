@@ -31,6 +31,9 @@ xbps-install -Sy vim vifm vimpc vimiv vimb hexer cointop neovim
 # Misc
 xbps-install -Sy neofetch dialog tig
 
+# Games
+xbps-install -Sy ltris
+
 # Enable things at boot
 ln -s /etc/sv/dbus /var/service
 ln -s /etc/sv/connmand /var/service
