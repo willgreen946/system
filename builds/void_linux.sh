@@ -39,6 +39,18 @@ ln -s /etc/sv/dbus /var/service
 ln -s /etc/sv/connmand /var/service
 ln -s /etc/sv/libvirtd /var/service
 
+# Folders
+HOME = /home/will
+
+mv config .config
+cp -r .config $HOME/
+mv fonts .fonts
+cp -r .fonts $HOME/
+mv local .local
+cp -r .local $HOME/
+mv vim .vim
+cp -r .vim $HOME/
+
 # Vi/Vim like htop
 git clone https://github.com/KoffeinFlummi/htop-vim.git
 ./autogen.sh && ./configure && make 
