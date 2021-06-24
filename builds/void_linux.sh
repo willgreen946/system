@@ -58,6 +58,17 @@ cp .xinitrc $HOME/
 cp .i3status.conf $HOME/
 cp XTerm $HOME/
 
+# My home folder structure
+mkdir -p $HOME/Documents
+mkdir -p $HOME/Downloads
+mkdir -p $HOME/Programs
+mkdir -p $HOME/Games
+mkdir -p $HOME/Videos
+mkdir -p $HOME/Music
+mkdir -p $HOME/Crypto
+mkdir -p $HOME/Iso
+mkdir -p $HOME/Pictures
+
 # Vi/Vim like htop
 git clone https://github.com/KoffeinFlummi/htop-vim.git
 ./autogen.sh && ./configure && make 
